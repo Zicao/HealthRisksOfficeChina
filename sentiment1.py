@@ -5,7 +5,7 @@ import time
 from openai import OpenAI
 import mistune
 from bs4 import BeautifulSoup
-API_KEY = "sk-f6bc3360bd5d4fbaac56eb03467e690d"
+API_KEY =
 client = OpenAI(api_key=f"{API_KEY}", base_url="https://api.deepseek.com")
 def get_sentiment_level(comment):
     completion = client.chat.completions.create(
